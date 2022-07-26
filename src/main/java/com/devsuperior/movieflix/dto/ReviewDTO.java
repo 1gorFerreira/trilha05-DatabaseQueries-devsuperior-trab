@@ -14,8 +14,8 @@ public class ReviewDTO implements Serializable{
 	@NotBlank(message = "Campo obrigatório")
 	private String text;
 	
-	private UserDTO user;
 	private Long movieId;
+	private UserDTO user;
 	
 	public ReviewDTO() {
 		
