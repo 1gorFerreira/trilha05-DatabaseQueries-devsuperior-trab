@@ -13,6 +13,7 @@ import com.devsuperior.movieflix.entities.Genre;
 import com.devsuperior.movieflix.entities.Movie;
 import com.devsuperior.movieflix.repositories.GenreRepository;
 import com.devsuperior.movieflix.repositories.MovieRepository;
+import com.devsuperior.movieflix.repositories.ReviewRepository;
 import com.devsuperior.movieflix.services.exceptions.ResourceNotFoundException;
 
 @Service
@@ -38,4 +39,5 @@ public class MovieService {
 		movieRepository.findMoviesWithGenres(page.getContent());
 		return page.map(x -> new MovieDTO(x));
 	}
+	
 }
