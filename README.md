@@ -1,9 +1,9 @@
 **Desafio para entregar**
 
-**TAREFA: MovieFlix domínio e autorização**
+**TAREFA: MovieFlix casos de uso**
 
 Implemente as funcionalidades necessárias para que os testes do projeto abaixo passem:
-https://github.com/devsuperior/bds05
+https://github.com/devsuperior/bds06
 
 **Visão geral do sistema MovieFlix**
 
@@ -48,7 +48,7 @@ https://www.figma.com/file/6JQVnxKgKtVHLleSBBgRin/MovieFlix-front-listagem
 
 3 - [IN] O usuário **membro** informa, opcionalmente, um texto para avaliação do filme.
 
-4 - [OUT] O sistema apresenta os dados atualizados, já aparecendo também a avaliação feita pelo usuário.
+4 - [OUT] O **sistema** apresenta os dados atualizados, já aparecendo também a avaliação feita pelo usuário.
 
 **Exceção 3.1 - Texto vazio**
 
